@@ -1,0 +1,115 @@
+.site-card-wrapper  {
+    padding-top: 150px;
+}
+
+.ant-card-head {
+    display: flex;
+    justify-content: center;
+    /* background-color:rgb(152, 123, 85); */
+    background-color: #6c8e98;
+}
+
+.ant-card {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.787);
+}
+
+.ant-card-head-title{
+    color: white;
+}
+
+.added-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.card-column{
+    background-color: rgba(255, 255, 255, 0.287);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: left;
+}
+
+.user-info {
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+h2{
+    /* color: #414141; */
+    color: White;
+    padding-top: 10px;
+}
+
+.inviteDiv {
+    height: 220px;
+    color: #fff;
+    background: #9c9687;
+    border: solid #fff;
+    overflow-y: scroll;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inviteDiv a {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.inviteDiv a:hover {
+    color: #3b5e66;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .site-card-wrapper  {
+        padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .user-info {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .user-info {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .user-info {
+        font-size: 12px;
+    }
+}
+
+/* Modal Styling */
+
+.ant-modal-title{
+    color: #595959;
+}
+
+.ant-btn-primary{
+    background-color: #3b5e66;
+    border: 1px solid #6eb0b4;
+}
+.ant-btn-primary:hover{
+    background-color: #6eb0b4;
+    border: 1px solid #3b5e66;
+    color: white !important;
+}
+
+.ant-btn:hover{
+    border: 1px solid #3b5e66;
+    color: #6eb0b4;
+}
